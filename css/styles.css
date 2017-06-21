@@ -82,19 +82,15 @@ font-family: 'PT Sans', sans-serif;
 
 h3{
     color: #dd9c42;
-    font-size: 1,6em;
+    font-size: 1.6em;
 }
 
 body {
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px
+ margin: 0;
 }
 
 p{
     font-size: 12pt;
-    box-shadow: 10px;
 }
 
 nav{
@@ -153,7 +149,7 @@ nav li a:hover {
 
 .clearfix{
     overflow: hidden;
-    clear: all;
+    clear: both;
 }
 
 /*ABOUT*/
@@ -210,7 +206,7 @@ nav li a:hover {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
  
@@ -260,7 +256,7 @@ nav li a:hover {
     margin: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 form{
@@ -367,17 +363,12 @@ footer{
 
 footer p{
     float: left;
-
-.clearfix{
-	clear: both;
-
-}
-
+ }
 
 .google-maps {
         margin: 0 auto 0 auto;
         width: 100%;
-    }
+ }
     
 
 
